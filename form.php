@@ -24,30 +24,30 @@
                 <div class="col-10 form-recipes">
                     <!-- form -->
                     <form class="formulaire w-100" action="#" method="get">
-                        <h4 class="text-white mt-4">Intitulé de la recette</h4>
+                        <h4 class="text-white mt-4 mb-4">Intitulé de la recette</h4>
                         <input id="title-recipe" class="w-50" type="text" placeholder="Intitulé de la recette">
                             <select class="custom-select my-1 w-50" id="inlineFormCustomSelectPref">
                                 <option selected>Catégorie</option>
                                 <option value="1">One</option>
                             </select>
-                        <h4 class="text-white mt-4">Nombre de personnes</h4>
+                        <h4 class="text-white mt-4 mb-2">Nombre de personnes</h4>
                         <input id="nbr-person" class="w-auto" type="number" max="16">
-                        <h4 class="text-white mt-4">Temps de préparation</h4>
+                        <h4 class="text-white mt-4 mb-2">Temps de préparation</h4>
                         <input id="time-recipe" class="w-auto" type="time">
-                        <h4 class="text-white mt-4">Temps de cuisson</h4>
+                        <h4 class="text-white mt-4 mb-2">Temps de cuisson</h4>
                         <input id="time-recipe" class="w-auto" type="time">
-                        <h4 class="text-white mt-4">Ingrédients</h4>
+                        <h4 class="text-white mt-4 mb-4">Ingrédients</h4>
                         <input id="title-recipe" class="w-50" type="text" placeholder="Son petit nom">
                         <a href="#" class="btn btn-primary">Ajouter un ingrédient</a>
                         <!-- ingredient.js -->
-                        <div class="list-ingredients">
-                            <table class="table table-dark">
+                        <div class="list pt-5">
+                            <table class="table list-ingredients text-white">
                                 <thead>
                                     <tr>
                                     <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
+                                    <th scope="col">Ingrédients</th>
+                                    <th scope="col">Quantité</th>
+                                    <th scope="col">Poids</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -73,10 +73,11 @@
                             </table>
                         </div>
                         <!-- ingredient.js -->
+                        <button type="submit" class="btn mt-5 text-white">Ajouter une recette</button>
                     </form>
                     <!-- form -->
-
                 </div>
+                <!-- main -->
         </div>
 
         
