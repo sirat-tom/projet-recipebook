@@ -1,3 +1,10 @@
 .dropdown-menu {
     left: 0.5%;
+    background: non;
+}
+
+#navbarDropdown:active {
+   .dropdown-menu {
+    background: none;
+    }
 }

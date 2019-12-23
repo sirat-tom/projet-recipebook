@@ -13,7 +13,11 @@
   border-color: grey; }
 
 .dropdown-menu {
-  left: 0.5%; }
+  left: 0.5%;
+  background: non; }
+
+#navbarDropdown:active .dropdown-menu {
+  background: none; }
 
 .random-recipes {
   padding-top: 2rem; }
@@ -29,8 +33,7 @@
 
 .list-ingredients {
   border: 2px solid #717c85; }
-
-th, td {
-  border-top: none !important; }
+  .list-ingredients th, .list-ingredients td {
+    border-top: none !important; }
 
 /*# sourceMappingURL=style.css.map */

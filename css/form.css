@@ -9,8 +9,7 @@
 
 .list-ingredients {
   border: 2px solid #717c85; }
-
-th, td {
-  border-top: none !important; }
+  .list-ingredients th, .list-ingredients td {
+    border-top: none !important; }
 
 /*# sourceMappingURL=form.css.map */

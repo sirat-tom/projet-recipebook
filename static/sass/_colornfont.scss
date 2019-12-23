@@ -2,12 +2,12 @@
     font-family: "Quicksand";
 }
 .container-recipes , .btn {
-    background: rgb(113,124,133);
-    background: linear-gradient(291deg, rgba(113,124,133,1) 10%, rgba(57,86,111,1) 50%); 
+    background: $backgroundBlueGray;
+    background: $linearGradientBlueGray;
 }
 #nav , .aside-recipes , .card-body {
-    background: rgb(74,5,28);
-    background: linear-gradient(146deg, rgba(74,5,28,1) 20%, rgba(124,30,61,1) 75%); 
+    background: $backgroundRedWine;
+    background: $linearGradientRedWine
 }
 .btn {
     border-color: grey;

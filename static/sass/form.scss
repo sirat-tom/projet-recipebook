@@ -1,6 +1,8 @@
+@import "var";
+
 .form-recipes {
-    background: rgb(113,124,133);
-    background: linear-gradient(291deg, rgba(113,124,133,1) 10%, rgba(57,86,111,1) 50%); 
+    background: $backgroundBlueGray;
+    background: $linearGradientBlueGray; 
     .formulaire {
         margin: auto;
         text-align: center;
@@ -8,11 +10,9 @@
         height: 200vh;
     }
 }
-
 .list-ingredients {
     border: 2px solid rgb(113,124,133); 
-}
-
-th , td {
-    border-top: none !important;
+    th , td {
+        border-top: none !important;
+    }
 }

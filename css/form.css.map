@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,aAAc;EACV,UAAU,EAAE,OAAgB;EAC5B,UAAU,EAAE,iDAAuE;EACnF,yBAAY;IACR,MAAM,EAAE,IAAI;IACZ,UAAU,EAAE,MAAM;IAClB,WAAW,EAAE,IAAI;IACjB,MAAM,EAAE,KAAK;;AAIrB,iBAAkB;EACd,MAAM,EAAE,iBAA0B;;AAGtC,MAAQ;EACJ,UAAU,EAAE,eAAe",
-"sources": ["../static/sass/form.scss"],
+"mappings": "AAEA,aAAc;EACV,UAAU,ECHQ,OAAgB;EDIlC,UAAU,ECHY,iDAAuE;EDI7F,yBAAY;IACR,MAAM,EAAE,IAAI;IACZ,UAAU,EAAE,MAAM;IAClB,WAAW,EAAE,IAAI;IACjB,MAAM,EAAE,KAAK;;AAGrB,iBAAkB;EACd,MAAM,EAAE,iBAA0B;EAClC,0CAAQ;IACJ,UAAU,EAAE,eAAe",
+"sources": ["../static/sass/form.scss","../static/sass/var.scss"],
 "names": [],
 "file": "form.css"
 }

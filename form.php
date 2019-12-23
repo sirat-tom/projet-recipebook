@@ -24,21 +24,44 @@
                 <div class="col-10 form-recipes">
                     <!-- form -->
                     <form class="formulaire w-100" action="#" method="get">
-                        <h4 class="text-white mt-4 mb-4">Intitulé de la recette</h4>
+                        <h4 class="text-white mt-4 mb-4">Nouvelle recette</h4>
                         <input id="title-recipe" class="w-50" type="text" placeholder="Intitulé de la recette">
                             <select class="custom-select my-1 w-50" id="inlineFormCustomSelectPref">
                                 <option selected>Catégorie</option>
                                 <option value="1">One</option>
                             </select>
+                            <select class="custom-select w-50" id="inlineFormCustomSelectPref">
+                                <option selected>Sous-catégorie</option>
+                                <option value="1">One</option>
+                            </select>
+                            <h4 class="text-white mt-4 mb-2">Image</h4>
+                            <div class="custom-file w-50">
+                                <input type="file" class="custom-file-input" id="customFileLang" lang="fr">
+                                <label class="custom-file-label" for="customFileLang">Si disponible</label>
+                            </div>
+
                         <h4 class="text-white mt-4 mb-2">Nombre de personnes</h4>
-                        <input id="nbr-person" class="w-auto" type="number" max="16">
+                        <input id="nbr-person" class="w-auto" type="number" max="16" min="0">
                         <h4 class="text-white mt-4 mb-2">Temps de préparation</h4>
                         <input id="time-recipe" class="w-auto" type="time">
                         <h4 class="text-white mt-4 mb-2">Temps de cuisson</h4>
                         <input id="time-recipe" class="w-auto" type="time">
                         <h4 class="text-white mt-4 mb-4">Ingrédients</h4>
                         <input id="title-recipe" class="w-50" type="text" placeholder="Son petit nom">
-                        <a href="#" class="btn btn-primary">Ajouter un ingrédient</a>
+                        <input id="quantity" class="w-auto" type="number" placeholder="Quantité" max="1000">
+                        <select class="custom-select my-1 w-auto" id="inlineFormCustomSelectPref">
+                            <option selected>Type</option>
+                            <option value="1">Quantité brute</option>
+                            <option value="5">Cuillère à café</option>
+                            <option value="4">Cuillère à soupe</option>
+                            <option value="2">kg</option>
+                            <option value="3">g</option>
+                            <option value="6">L</option>
+                            <option value="7">cl</option>
+                            <option value="1">ml</option>
+                        </select>
+                        <br>
+                        <a href="#" class="btn btn-primary mt-2">Ajouter un ingrédient</a>
                         <!-- ingredient.js -->
                         <div class="list pt-5">
                             <table class="table list-ingredients text-white">
@@ -47,7 +70,7 @@
                                     <th scope="col">#</th>
                                     <th scope="col">Ingrédients</th>
                                     <th scope="col">Quantité</th>
-                                    <th scope="col">Poids</th>
+                                    <th scope="col">Type</th>
                                     </tr>
                                 </thead>
                                 <tbody>
